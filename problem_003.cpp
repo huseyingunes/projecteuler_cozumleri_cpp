@@ -26,11 +26,8 @@ int main()
     for (int i=3;i<=sqrt(buyuk_sayi);i+=2) // çift sayıları atlayarak ilerliyoruz.
     // Ayrıca herhangi bir sayı karekökünden büyük bir sayıya bölünemeyeceği için oraya kadar ilerlememiz yeterli
     {
-        if (buyuk_sayi%i==0)
-        {
-            if(asal_mi(i))
-                aranan_sayi=i;
-        }
+        if (buyuk_sayi%i==0 && asal_mi(i))
+            aranan_sayi=i;
     }
     cout << "En buyuk asal carpan : " << aranan_sayi << endl;
     return 0;
