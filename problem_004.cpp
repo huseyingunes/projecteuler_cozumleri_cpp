@@ -23,11 +23,9 @@ int main()
     int palindrom_sayi=0;
     for (int i=100;i<1000;i++)
         for(int s=i;s<1000;s++)
-        {
             if(palindrom_mu(i*s))
                 if(palindrom_sayi<(i*s))
                     palindrom_sayi = i*s;
-        }
     cout << palindrom_sayi << endl;
     return 0;
 }
