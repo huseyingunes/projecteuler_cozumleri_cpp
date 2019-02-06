@@ -5,12 +5,12 @@ https://projecteuler.net/problem=7
 By listing the first six prime numbers: 2, 3, 5, 7, 11, and 13, we can see that the 6th prime is 13.
 What is the 10 001st prime number?
 ------------------------
-İlk 6 asal sayı:2,3,5,7,11 ve 13'tür. Listeye göre 13, 6. asay sayıdır.
-Aynı şekilde ilerlenirse 10001. asal sayı hangisi olur?
+Ä°lk 6 asal sayÄ±:2,3,5,7,11 ve 13'tÃ¼r. Listeye gÃ¶re 13, 6. asay sayÄ±dÄ±r.
+AynÄ± ÅŸekilde ilerlenirse 10001. asal sayÄ± hangisi olur?
 */
 using namespace std;
-// çabuk ve basit asal sayı algoritmalarından biri aşağıda yazılmıştır.
-// Daha farklı asal sayı bulma algoritmaları için : https://en.wikipedia.org/wiki/Primality_test
+// Ã§abuk ve basit asal sayÄ± algoritmalarÄ±ndan biri aÅŸaÄŸÄ±da yazÄ±lmÄ±ÅŸtÄ±r.
+// Daha farklÄ± asal sayÄ± bulma algoritmalarÄ± iÃ§in : https://en.wikipedia.org/wiki/Primality_test
 bool asal_mi(int sayi)
 {
     if (sayi<=3)
