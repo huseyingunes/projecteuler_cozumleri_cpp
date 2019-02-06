@@ -4,8 +4,8 @@ https://projecteuler.net/problem=5
 2520 is the smallest number that can be divided by each of the numbers from 1 to 10 without any remainder.
 What is the smallest positive number that is evenly divisible by all of the numbers from 1 to 20?
 ----------------------------------
-2520 1'den 10'a kadar bütün sayılara tam bölünebilen en küçük sayıdır.
-O halde 1'den 20'ye kadar bütün sayılara tam bölünebilen en küçük sayı kaçtır?
+2520 1'den 10'a kadar bÃ¼tÃ¼n sayÄ±lara tam bÃ¶lÃ¼nebilen en kÃ¼Ã§Ã¼k sayÄ±dÄ±r.
+O halde 1'den 20'ye kadar bÃ¼tÃ¼n sayÄ±lara tam bÃ¶lÃ¼nebilen en kÃ¼Ã§Ã¼k sayÄ± kaÃ§tÄ±r?
 */
 using namespace std;
 bool bolunuyor_mu(int sayi)
